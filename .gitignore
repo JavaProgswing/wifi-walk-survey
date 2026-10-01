@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# personal scans + generated real dashboards (keep the DEMO only)
+survey.json
+survey_*.json
+survey_dashboard.html
+!survey_dashboard_DEMO.html
